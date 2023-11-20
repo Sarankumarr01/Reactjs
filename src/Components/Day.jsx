@@ -36,12 +36,12 @@ const Day = () => {
       }
     return (
         <div>
-        x
+        
            {data.map((dd,i)=>(
             <div className='box'>
                 
            <span> <h1>{dd.title}</h1>
-              <button onClick={handle}>+</button></span>
+              <button onClick={handle}>add</button></span>
             <h2>{dd.info}</h2>
             </div>
            )
